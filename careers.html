@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta, title -->
+		<meta charset="utf-8">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+		<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+		<meta name="author" content="WowThemesNet">	
+		<title></title>
+		
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,400italic,500,600,700,700,800,900italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css'/>
+		<link href='http://fonts.googleapis.com/css?family=ABeeZee:100,200,300,400,400italic,500,600,700,700,800,900italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css'/>
+		
+		<!-- CSS -->
+		<link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/animate.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/skins/orange.css' type='text/css' media='all'/>
+		
+		<!-- Jquery -->
+		<script type='text/javascript' src='js/jquery.js'></script>
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv.min.js"></script>
+		  <script src="js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
+		<link rel="icon" href="img/favicon.ico">
+	</head>
+<body>
+
+<!-- BEGIN MENU
+================================================== -->	
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+			<img src="img/mbf.png" alt="" class="lg1">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse pull-right" id="mainMenu">
+			<ul id="menu-main-menu" class="nav navbar-nav">
+				<li><a href="index1.html">Home</a></li>
+				<li><a href="aboutus.html">About us</a></li>
+				<li><a href="careers.html">Careers</a></li>
+				<li><a href="orderonline.php">Order online</a></li>
+				<li><a href="contactus.html">Contact us</a></li>
+				<li><a href="register2.php">register2</a></li>
+				
+				
+				</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+	
+<!-- BEGIN CONTENT
+================================================== -->	
+			
+	<!--SECTION home (intro)
+	================================================== -->	
+	<section id="home" class="parallax parallax-image dark-bg" style="background-color: #000000; background-image:url(./img/bg1.jpg);">
+		<div class="wrapsection" style="background-image:url(img/pattern.png); background-repeat:repeat;">
+			<div class="overlay" style="background-color: #000000; opacity: 0.3;">
+			</div>
+			<div class="container">
+			
+				<div class="parallax-content">
+					<div class="row">
+						<div class="wowanimslider fullwidth flexslider clearfix">
+						
+							<ul class="slides">
+							
+								<li>
+								<div class="caption text-center" style="padding-top:120px;padding-bottom:120px; color:#ffffff;">
+									<h1 class="home-slide-content wow zoomIn" data-wow-delay="0s" data-wow-duration="1s">Welcome to <span class="stresscolor">Luca’s Loaves</span></h1>
+									
+								</div>
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div><!-- /.wowanimslider -->
+					</div><!-- /.row -->
+				</div><!-- /.parallax-content -->
+				
+			</div><!-- /.container -->
+		</div><!-- /.wrapsection -->
+	</section>
+	
+		
+	<!-- SECTION about
+	================================================== -->
+	<section id="about" class="page-wrapper light-bg">
+	
+	</div>
+	<div class="wrapper">
+		<div id="welcome" class="container">
+			<div class="title">
+				<h1>Join our team</h1>
+				<p> We are expanding our branches and need experienced baker regularly.</n>
+					Send us your detail with the form below</br>
+				and we will be in contact shortly</p>
+	
+				<div id="three-column" class="container">
+			   
+					<div class="title">
+						<h2>Fill out the form below and upload your cover letter and resume</h2>
+						<form action="file_upload.php" method="POST"
+				enctype="multipart/form-data">
+	 
+	
+			 
+			<label for="name">First name:</label>
+			<input type="text" id="name" name="name"/><br>
+			<label for="email">Last name:</label>
+			<input type="text" id="email"name="email" /><br>
+			<label for="telephone">Email Address:</label>
+			<input type="text" id="telephone" name="telephone"/><br>
+			<label for="message">Work experience</label>
+			<textarea name="message" id="message" cols="30" rows="10"></textarea><br />
+	<p>
+				Select files to upload:
+				 
+				<!-- name of the input fields are going to
+					be used in our php script-->
+				<input type="file" name="files[]" multiple><br>
+				<input type="file" name="files[]" multiple>
+				<br><br>
+				 
+				<input type="submit" name="submit" value="Upload" >
+			</p>
+	 
+		</form>
+					
+					</div>
+				
+					
+					
+				</div>
+				</div>
+				</div>
+						
+					</div>
+				</div><!-- /.col-md-4 -->
+				
+			</div><!-- /.page-content -->
+			
+		</div><!-- /.container -->
+		
+	</section>
+
+
+    <!-- BEGIN FOOTER
+================================================== -->
+<section class="nowidgetbottom">
+    <p id="back-top">
+        <a href="#top"><span><i class="fa fa-chevron-up"></i></span></a>
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="img/logowhite.png" alt="">
+                <ul class="social-icons" style="margin-top:7px;margin-bottom:5px;">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+                 <a target="_blank" href="http://www.mobanwang.com" title="Michael hebin">Michael hebin</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- END FOOTER
+    ================================================== -->
+        
+    
+    <script type='text/javascript' src='js/bootstrap.js'></script>
+    <script type='text/javascript' src='js/easing.js'></script>
+    <script type='text/javascript' src='js/smoothscroll.js'></script>
+    <script type='text/javascript' src='js/wow.js'></script>
+    <script type='text/javascript' src='js/appear.js'></script>
+    <script type='text/javascript' src='js/fitvids.js'></script>
+    <script type='text/javascript' src='js/common.js'></script>
+    <script type='text/javascript' src='js/flexslider.js'></script>
+    <script type='text/javascript' src='js/countto.js'></script>
+    <script type='text/javascript' src='js/jquery.cycle.all.min.js'></script>
+    <script type='text/javascript' src='js/carousel.js'></script>
+    <script type='text/javascript' src='js/carousel-anything.js'></script>
+    <script type='text/javascript' src='js/carousel-testimonials.js'></script>
+    <script type='text/javascript' src='js/isotope.js'></script>
+    <script type='text/javascript' src='js/carousel-blog.js'></script>
+    <script type='text/javascript' src='js/parallax.js'></script>
+    <script type='text/javascript' src='js/validate.js'></script>
+    </body>
+    </html>
